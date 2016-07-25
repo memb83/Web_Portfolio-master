@@ -1,0 +1,26 @@
+
+h1 {
+	font-family: 'ubuntu', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+h2 {
+	font-family: 'ubuntu', sans-serif;
+	font-size: 30px;
+}
+
+aside {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 30px;
+	text-align: right;
+}
+
+article {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 18px;
+}
+
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Architects Daughter', cursive;
+*/
