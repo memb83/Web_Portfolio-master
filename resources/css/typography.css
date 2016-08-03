@@ -9,6 +9,12 @@ h2 {
 	font-size: 30px;
 }
 
+h3{
+	font-family: 'ubuntu', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
 aside {
 	font-family: 'Architects Daughter', cursive;
 	font-size: 30px;

@@ -1,10 +1,12 @@
+
+
 h1{
     margin: 0 auto;
     float: none;
     margin-top: 34px;
 }
 
-header, article, nav, section{
+header, article, nav, section {
     display: block;
     float: left;
 }
@@ -13,17 +15,31 @@ aside {
     display: block;
     float: right;
     margin-top: 10px;
+    padding-right: 4%;
 }
 
 footer {
     clear: both;
+}
+figcaption {
+    text-align: center;
+}
+
+.intro{
+    padding-left: 4%;
+}
+.border {
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    padding: 4px;
 }
 
 
 .col-1 {width: 8.88%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
+/*.col-4 {width: 33.33%;}*/
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
@@ -33,13 +49,13 @@ footer {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-
-
-
 .full-width{
     width:100%;
 }
-
+.home_img{
+    max-width: 128px;
+    height: auto;
+}
 img {
     width: 100%;
     height: auto;
