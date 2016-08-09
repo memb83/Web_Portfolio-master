@@ -22,33 +22,52 @@
 
 }
 */
-@media (max-width: 767px) {
+/*   NOT WORKING???
+@media only screen and (min-width: 400px) and (max-width: 767px) and (orientation: portrait) {*/
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait){
+
+
     section, header {
-        max-width: 749px;
-        background-color: yellow;
+
     }
-    aside{
+
+    aside {
         font-size: 30px;
     }
 
-    .col-4 {
-        width: 320px;
-        }
+    .col-6 {
+        width: 50%;
     }
-/*.intro {
-    padding-left: 3%;
-    padding-right: 3%;
-}*/
-@media (min-width: 768px) {
+
+    .about_me {
+        /*height: 280px;
+        overflow: scroll;*/
+        font-size: 18px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    article{
+        font-size: 36px;
+    }
+    /*.intro {
+        padding-left: 3%;
+        padding-right: 3%;
+    }*/
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape){
     section, header {
         width: 750px;
-        background-color: blue;
     }
 
 
     .col-4{
         width: 45%;
     }
+ /*   .about_me{
+        height: 150px;
+        overflow: scroll;
+    }*/
    /* .intro {
         padding-left: 3%;
         padding-right: 3%;
@@ -56,10 +75,9 @@
 */
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     section, header {
         width: 970px;
-        background-color: green;
     }
     .col-4 {
         width: 33.33%;
@@ -70,13 +88,13 @@
     }
 */
 }
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     section, header {
         width: 1170px;
-        background-color: cyan;
     }
     .col-4 {
         width: 25%;
+    }
   /*  }
     .intro {
         padding-left: 5%;
