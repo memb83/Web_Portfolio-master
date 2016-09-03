@@ -46,6 +46,8 @@ figcaption {
 }
 .about_me{
     padding-right: 4%;
+    height: 200px;
+    overflow-y: scroll;
 }
 .border {
     border-left: 2px solid red;
